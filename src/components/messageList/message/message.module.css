@@ -1,0 +1,28 @@
+.message {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: right;
+    margin: 10px;
+    background-color: rgb(26, 42, 73);
+    color: white;
+}
+
+.message_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.message_text{
+    font-size: 20px;
+}
+
+.message_author{
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.message_time{
+    font-size: 15px;
+    opacity: 0.5;
+}

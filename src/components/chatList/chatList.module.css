@@ -1,0 +1,6 @@
+.wrapper {
+    width: 30%;
+    height: 100%;
+    background-color: rgb(31, 46, 77);
+    border-right: 3px solid rgb(32, 41, 53);
+}

@@ -1,0 +1,30 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(32, 41, 53);
+}
+
+.icon {
+    margin-left: 50px;  
+    width: 35px;
+}
+
+.nav_list{
+    list-style: none;
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 50px;
+}
+
+.list_item a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.list_item a:hover{
+    text-shadow: 0 0 10px pink;
+}
